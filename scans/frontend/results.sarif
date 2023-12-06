@@ -1,0 +1,559 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://docs.oasis-open.org/sarif/sarif/v2.1.0/errata01/os/schemas/sarif-schema-2.1.0.json",
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "grype",
+          "version": "0.73.4",
+          "informationUri": "https://github.com/anchore/grype",
+          "rules": [
+            {
+              "id": "CVE-2015-7313-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2015-7313 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "LibTIFF allows remote attackers to cause a denial of service (memory consumption and crash) via a crafted tiff file."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2015-7313\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2015-7313](https://nvd.nist.gov/vuln/detail/CVE-2015-7313)",
+                "markdown": "**Vulnerability CVE-2015-7313**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2015-7313](https://nvd.nist.gov/vuln/detail/CVE-2015-7313)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-1916-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-1916 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A flaw was found in tiffcrop, a program distributed by the libtiff package. A specially crafted tiff file can lead to an out-of-bounds read in the extractImageSection function in tools/tiffcrop.c, resulting in a denial of service and limited information disclosure. This issue affects libtiff versions 4.x."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-1916\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-1916](https://nvd.nist.gov/vuln/detail/CVE-2023-1916)",
+                "markdown": "**Vulnerability CVE-2023-1916**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-1916](https://nvd.nist.gov/vuln/detail/CVE-2023-1916)  |\n"
+              },
+              "properties": {
+                "security-severity": "6.1"
+              }
+            },
+            {
+              "id": "CVE-2023-26965-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-26965 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "loadImage() in tools/tiffcrop.c in LibTIFF through 4.5.0 has a heap-based use after free via a crafted TIFF image."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-26965\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-26965](https://nvd.nist.gov/vuln/detail/CVE-2023-26965)",
+                "markdown": "**Vulnerability CVE-2023-26965**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-26965](https://nvd.nist.gov/vuln/detail/CVE-2023-26965)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-2731-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-2731 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A NULL pointer dereference flaw was found in Libtiff's LZWDecode() function in the libtiff/tif_lzw.c file. This flaw allows a local attacker to craft specific input data that can cause the program to dereference a NULL pointer when decompressing a TIFF format file, resulting in a program crash or denial of service."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-2731\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-2731](https://nvd.nist.gov/vuln/detail/CVE-2023-2731)",
+                "markdown": "**Vulnerability CVE-2023-2731**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-2731](https://nvd.nist.gov/vuln/detail/CVE-2023-2731)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-2908-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-2908 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A null pointer dereference issue was found in Libtiff's tif_dir.c file. This issue may allow an attacker to pass a crafted TIFF image file to the tiffcp utility which triggers a runtime error that causes undefined behavior. This will result in an application crash, eventually leading to a denial of service."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-2908\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-2908](https://nvd.nist.gov/vuln/detail/CVE-2023-2908)",
+                "markdown": "**Vulnerability CVE-2023-2908**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-2908](https://nvd.nist.gov/vuln/detail/CVE-2023-2908)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-30775-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-30775 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A vulnerability was found in the libtiff library. This security flaw causes a heap buffer overflow in extractContigSamples32bits, tiffcrop.c."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-30775\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-30775](https://nvd.nist.gov/vuln/detail/CVE-2023-30775)",
+                "markdown": "**Vulnerability CVE-2023-30775**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-30775](https://nvd.nist.gov/vuln/detail/CVE-2023-30775)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-3576-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-3576 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A memory leak flaw was found in Libtiff's tiffcrop utility. This issue occurs when tiffcrop operates on a TIFF image file, allowing an attacker to pass a crafted TIFF image file to tiffcrop utility, which causes this memory leak issue, resulting an application crash, eventually leading to a denial of service."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-3576\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-3576](https://nvd.nist.gov/vuln/detail/CVE-2023-3576)",
+                "markdown": "**Vulnerability CVE-2023-3576**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-3576](https://nvd.nist.gov/vuln/detail/CVE-2023-3576)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-3618-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-3618 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A flaw was found in libtiff. A specially crafted tiff file can lead to a segmentation fault due to a buffer overflow in the Fax3Encode function in libtiff/tif_fax3.c, resulting in a denial of service."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-3618\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-3618](https://nvd.nist.gov/vuln/detail/CVE-2023-3618)",
+                "markdown": "**Vulnerability CVE-2023-3618**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-3618](https://nvd.nist.gov/vuln/detail/CVE-2023-3618)  |\n"
+              },
+              "properties": {
+                "security-severity": "6.5"
+              }
+            },
+            {
+              "id": "CVE-2023-40745-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-40745 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "LibTIFF is vulnerable to an integer overflow. This flaw allows remote attackers to cause a denial of service (application crash) or possibly execute an arbitrary code via a crafted tiff image, which triggers a heap-based buffer overflow."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-40745\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-40745](https://nvd.nist.gov/vuln/detail/CVE-2023-40745)",
+                "markdown": "**Vulnerability CVE-2023-40745**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-40745](https://nvd.nist.gov/vuln/detail/CVE-2023-40745)  |\n"
+              },
+              "properties": {
+                "security-severity": "6.5"
+              }
+            },
+            {
+              "id": "CVE-2023-41175-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-41175 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "A vulnerability was found in libtiff due to multiple potential integer overflows in raw2tiff.c. This flaw allows remote attackers to cause a denial of service or possibly execute an arbitrary code via a crafted tiff image, which triggers a heap-based buffer overflow."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-41175\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-41175](https://nvd.nist.gov/vuln/detail/CVE-2023-41175)",
+                "markdown": "**Vulnerability CVE-2023-41175**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-41175](https://nvd.nist.gov/vuln/detail/CVE-2023-41175)  |\n"
+              },
+              "properties": {
+                "security-severity": "6.5"
+              }
+            },
+            {
+              "id": "CVE-2023-43789-libxpm",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-43789 medium vulnerability for libxpm package"
+              },
+              "fullDescription": {
+                "text": "A vulnerability was found in libXpm where a vulnerability exists due to a boundary condition, a local user can trigger an out-of-bounds read error and read contents of memory on the system."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-43789\nSeverity: medium\nPackage: libxpm\nVersion: 3.5.15-r0\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-43789](https://nvd.nist.gov/vuln/detail/CVE-2023-43789)",
+                "markdown": "**Vulnerability CVE-2023-43789**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libxpm  | 3.5.15-r0  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-43789](https://nvd.nist.gov/vuln/detail/CVE-2023-43789)  |\n"
+              },
+              "properties": {
+                "security-severity": "5.5"
+              }
+            },
+            {
+              "id": "CVE-2023-6277-tiff",
+              "name": "ApkMatcherCpeMatch",
+              "shortDescription": {
+                "text": "CVE-2023-6277 medium vulnerability for tiff package"
+              },
+              "fullDescription": {
+                "text": "An out-of-memory flaw was found in libtiff. Passing a crafted tiff file to TIFFOpen() API may allow a remote attacker to cause a denial of service via a craft input with size smaller than 379 KB."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-6277\nSeverity: medium\nPackage: tiff\nVersion: 4.4.0-r4\nFix Version: \nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: nvd:cpe\nLink: [CVE-2023-6277](https://nvd.nist.gov/vuln/detail/CVE-2023-6277)",
+                "markdown": "**Vulnerability CVE-2023-6277**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | tiff  | 4.4.0-r4  |   | apk  | /lib/apk/db/installed  | nvd:cpe  | [CVE-2023-6277](https://nvd.nist.gov/vuln/detail/CVE-2023-6277)  |\n"
+              },
+              "properties": {
+                "security-severity": "7.5"
+              }
+            }
+          ]
+        }
+      },
+      "results": [
+        {
+          "ruleId": "CVE-2015-7313-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-1916-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-26965-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-2731-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-2908-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-30775-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-3576-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-3618-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-40745-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-41175-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-43789-libxpm",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports libxpm at version 3.5.15-r0  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-6277-tiff",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports tiff at version 4.4.0-r4  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
