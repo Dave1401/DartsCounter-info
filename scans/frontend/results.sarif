@@ -208,6 +208,78 @@
               }
             },
             {
+              "id": "CVE-2023-46218-curl",
+              "name": "ApkMatcherExactDirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-46218 low vulnerability for curl package"
+              },
+              "fullDescription": {
+                "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-46218\nSeverity: low\nPackage: curl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
+                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | curl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
+            },
+            {
+              "id": "CVE-2023-46218-libcurl",
+              "name": "ApkMatcherExactIndirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-46218 low vulnerability for libcurl package"
+              },
+              "fullDescription": {
+                "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-46218\nSeverity: low\nPackage: libcurl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
+                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libcurl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
+            },
+            {
+              "id": "CVE-2023-46219-curl",
+              "name": "ApkMatcherExactDirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-46219 low vulnerability for curl package"
+              },
+              "fullDescription": {
+                "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-46219\nSeverity: low\nPackage: curl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46219](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219)",
+                "markdown": "**Vulnerability CVE-2023-46219**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | curl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46219](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
+            },
+            {
+              "id": "CVE-2023-46219-libcurl",
+              "name": "ApkMatcherExactIndirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-46219 low vulnerability for libcurl package"
+              },
+              "fullDescription": {
+                "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-46219\nSeverity: low\nPackage: libcurl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46219](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219)",
+                "markdown": "**Vulnerability CVE-2023-46219**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libcurl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46219](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46219)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
+            },
+            {
               "id": "CVE-2023-6277-tiff",
               "name": "ApkMatcherCpeMatch",
               "shortDescription": {
@@ -503,6 +575,114 @@
           "ruleId": "CVE-2023-43789-libxpm",
           "message": {
             "text": "The path /lib/apk/db/installed reports libxpm at version 3.5.15-r0  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-46218-curl",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports curl at version 8.4.0-r0  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-46218-libcurl",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports libcurl at version 8.4.0-r0  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-46219-curl",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports curl at version 8.4.0-r0  which is a vulnerable (apk) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//lib/apk/db/installed"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/lib/apk/db/installed",
+                  "fullyQualifiedName": "localbuild/frontend:latest@sha256:1db0439affc86e8aa75c4a46b36bcf584d3814ab2dfa4248e756ec4d8e16e0c9:/lib/apk/db/installed"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-46219-libcurl",
+          "message": {
+            "text": "The path /lib/apk/db/installed reports libcurl at version 8.4.0-r0  which is a vulnerable (apk) package installed in the container"
           },
           "locations": [
             {
