@@ -211,36 +211,36 @@
               "id": "CVE-2023-46218-curl",
               "name": "ApkMatcherExactDirectMatch",
               "shortDescription": {
-                "text": "CVE-2023-46218 low vulnerability for curl package"
+                "text": "CVE-2023-46218 medium vulnerability for curl package"
               },
               "fullDescription": {
                 "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2023-46218\nSeverity: low\nPackage: curl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
-                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | curl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
+                "text": "Vulnerability CVE-2023-46218\nSeverity: medium\nPackage: curl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
+                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | curl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
               },
               "properties": {
-                "security-severity": "0.0"
+                "security-severity": "6.5"
               }
             },
             {
               "id": "CVE-2023-46218-libcurl",
               "name": "ApkMatcherExactIndirectMatch",
               "shortDescription": {
-                "text": "CVE-2023-46218 low vulnerability for libcurl package"
+                "text": "CVE-2023-46218 medium vulnerability for libcurl package"
               },
               "fullDescription": {
                 "text": "Version 8.4.0-r0 is affected with an available fix in versions 8.5.0-r0"
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2023-46218\nSeverity: low\nPackage: libcurl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
-                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libcurl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
+                "text": "Vulnerability CVE-2023-46218\nSeverity: medium\nPackage: libcurl\nVersion: 8.4.0-r0\nFix Version: 8.5.0-r0\nType: apk\nLocation: /lib/apk/db/installed\nData Namespace: alpine:distro:alpine:3.17\nLink: [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)",
+                "markdown": "**Vulnerability CVE-2023-46218**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| medium  | libcurl  | 8.4.0-r0  | 8.5.0-r0  | apk  | /lib/apk/db/installed  | alpine:distro:alpine:3.17  | [CVE-2023-46218](http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218)  |\n"
               },
               "properties": {
-                "security-severity": "0.0"
+                "security-severity": "6.5"
               }
             },
             {
