@@ -1669,54 +1669,54 @@
               "id": "CVE-2023-50495-libtinfo6",
               "name": "DpkgMatcherExactIndirectMatch",
               "shortDescription": {
-                "text": "CVE-2023-50495 low vulnerability for libtinfo6 package"
+                "text": "CVE-2023-50495 high vulnerability for libtinfo6 package"
               },
               "fullDescription": {
                 "text": "NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry()."
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2023-50495\nSeverity: low\nPackage: libtinfo6\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/libtinfo6/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
-                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libtinfo6  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/libtinfo6/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
+                "text": "Vulnerability CVE-2023-50495\nSeverity: high\nPackage: libtinfo6\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/libtinfo6/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
+                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| high  | libtinfo6  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/libtinfo6/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
               },
               "properties": {
-                "security-severity": "0.0"
+                "security-severity": "7.5"
               }
             },
             {
               "id": "CVE-2023-50495-ncurses-base",
               "name": "DpkgMatcherExactIndirectMatch",
               "shortDescription": {
-                "text": "CVE-2023-50495 low vulnerability for ncurses-base package"
+                "text": "CVE-2023-50495 high vulnerability for ncurses-base package"
               },
               "fullDescription": {
                 "text": "NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry()."
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2023-50495\nSeverity: low\nPackage: ncurses-base\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/ncurses-base/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
-                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | ncurses-base  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/ncurses-base/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
+                "text": "Vulnerability CVE-2023-50495\nSeverity: high\nPackage: ncurses-base\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/ncurses-base/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
+                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| high  | ncurses-base  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/ncurses-base/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
               },
               "properties": {
-                "security-severity": "0.0"
+                "security-severity": "7.5"
               }
             },
             {
               "id": "CVE-2023-50495-ncurses-bin",
               "name": "DpkgMatcherExactIndirectMatch",
               "shortDescription": {
-                "text": "CVE-2023-50495 low vulnerability for ncurses-bin package"
+                "text": "CVE-2023-50495 high vulnerability for ncurses-bin package"
               },
               "fullDescription": {
                 "text": "NCurse v6.4-20230418 was discovered to contain a segmentation fault via the component _nc_wrap_entry()."
               },
               "helpUri": "https://github.com/anchore/grype",
               "help": {
-                "text": "Vulnerability CVE-2023-50495\nSeverity: low\nPackage: ncurses-bin\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/ncurses-bin/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
-                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | ncurses-bin  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/ncurses-bin/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
+                "text": "Vulnerability CVE-2023-50495\nSeverity: high\nPackage: ncurses-bin\nVersion: 6.2+20201114-2+deb11u2\nFix Version: \nType: deb\nLocation: /usr/share/doc/ncurses-bin/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)",
+                "markdown": "**Vulnerability CVE-2023-50495**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| high  | ncurses-bin  | 6.2+20201114-2+deb11u2  |   | deb  | /usr/share/doc/ncurses-bin/copyright  | debian:distro:debian:11  | [CVE-2023-50495](https://security-tracker.debian.org/tracker/CVE-2023-50495)  |\n"
               },
               "properties": {
-                "security-severity": "0.0"
+                "security-severity": "7.5"
               }
             },
             {
