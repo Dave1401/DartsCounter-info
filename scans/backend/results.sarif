@@ -1772,6 +1772,42 @@
               "properties": {
                 "security-severity": "5.9"
               }
+            },
+            {
+              "id": "CVE-2023-7008-libsystemd0",
+              "name": "DpkgMatcherExactIndirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-7008 low vulnerability for libsystemd0 package"
+              },
+              "fullDescription": {
+                "text": "Version 247.3-7+deb11u4 is affected with no fixes reported yet."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-7008\nSeverity: low\nPackage: libsystemd0\nVersion: 247.3-7+deb11u4\nFix Version: \nType: deb\nLocation: /usr/share/doc/libsystemd0/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-7008](https://security-tracker.debian.org/tracker/CVE-2023-7008)",
+                "markdown": "**Vulnerability CVE-2023-7008**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libsystemd0  | 247.3-7+deb11u4  |   | deb  | /usr/share/doc/libsystemd0/copyright  | debian:distro:debian:11  | [CVE-2023-7008](https://security-tracker.debian.org/tracker/CVE-2023-7008)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
+            },
+            {
+              "id": "CVE-2023-7008-libudev1",
+              "name": "DpkgMatcherExactIndirectMatch",
+              "shortDescription": {
+                "text": "CVE-2023-7008 low vulnerability for libudev1 package"
+              },
+              "fullDescription": {
+                "text": "Version 247.3-7+deb11u4 is affected with no fixes reported yet."
+              },
+              "helpUri": "https://github.com/anchore/grype",
+              "help": {
+                "text": "Vulnerability CVE-2023-7008\nSeverity: low\nPackage: libudev1\nVersion: 247.3-7+deb11u4\nFix Version: \nType: deb\nLocation: /usr/share/doc/libudev1/copyright\nData Namespace: debian:distro:debian:11\nLink: [CVE-2023-7008](https://security-tracker.debian.org/tracker/CVE-2023-7008)",
+                "markdown": "**Vulnerability CVE-2023-7008**\n| Severity | Package | Version | Fix Version | Type | Location | Data Namespace | Link |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| low  | libudev1  | 247.3-7+deb11u4  |   | deb  | /usr/share/doc/libudev1/copyright  | debian:distro:debian:11  | [CVE-2023-7008](https://security-tracker.debian.org/tracker/CVE-2023-7008)  |\n"
+              },
+              "properties": {
+                "security-severity": "0.0"
+              }
             }
           ]
         }
@@ -5342,6 +5378,76 @@
                 {
                   "name": "/var/lib/dpkg/info/libgnutls30:amd64.md5sums",
                   "fullyQualifiedName": "localbuild/backend:latest@sha256:e6cd39d4cea4051114c9bf1c61995efdb7b33a54c7b46b33b221f8371ae8c2b7:/var/lib/dpkg/info/libgnutls30:amd64.md5sums"
+                },
+                {
+                  "name": "/var/lib/dpkg/status",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:d47be6633206be9f10256d45341dfde67b2df9be853f27ca1162711562787e25:/var/lib/dpkg/status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-7008-libsystemd0",
+          "message": {
+            "text": "The path /usr/share/doc/libsystemd0/copyright reports libsystemd0 at version 247.3-7+deb11u4  which is a vulnerable (deb) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//usr/share/doc/libsystemd0/copyright"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/usr/share/doc/libsystemd0/copyright",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:e6cd39d4cea4051114c9bf1c61995efdb7b33a54c7b46b33b221f8371ae8c2b7:/usr/share/doc/libsystemd0/copyright"
+                },
+                {
+                  "name": "/var/lib/dpkg/info/libsystemd0:amd64.md5sums",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:e6cd39d4cea4051114c9bf1c61995efdb7b33a54c7b46b33b221f8371ae8c2b7:/var/lib/dpkg/info/libsystemd0:amd64.md5sums"
+                },
+                {
+                  "name": "/var/lib/dpkg/status",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:d47be6633206be9f10256d45341dfde67b2df9be853f27ca1162711562787e25:/var/lib/dpkg/status"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "CVE-2023-7008-libudev1",
+          "message": {
+            "text": "The path /usr/share/doc/libudev1/copyright reports libudev1 at version 247.3-7+deb11u4  which is a vulnerable (deb) package installed in the container"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "image//usr/share/doc/libudev1/copyright"
+                },
+                "region": {
+                  "startLine": 1,
+                  "startColumn": 1,
+                  "endLine": 1,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "name": "/usr/share/doc/libudev1/copyright",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:e6cd39d4cea4051114c9bf1c61995efdb7b33a54c7b46b33b221f8371ae8c2b7:/usr/share/doc/libudev1/copyright"
+                },
+                {
+                  "name": "/var/lib/dpkg/info/libudev1:amd64.md5sums",
+                  "fullyQualifiedName": "localbuild/backend:latest@sha256:e6cd39d4cea4051114c9bf1c61995efdb7b33a54c7b46b33b221f8371ae8c2b7:/var/lib/dpkg/info/libudev1:amd64.md5sums"
                 },
                 {
                   "name": "/var/lib/dpkg/status",
